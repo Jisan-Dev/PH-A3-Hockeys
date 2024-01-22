@@ -65,9 +65,9 @@
             <li><a>Blog</a></li>
             <li><a>Contact</a></li>
           </div>
-          <a class="btn btn-ghost text-4xl font-extrabold relative"
+          <a class="text-4xl font-extrabold relative"
             >Hockey<svg
-              class="absolute w-5 left-[141px] top-2 text-red-600 fill-red-600 ml-[2px]"
+              class="absolute w-6 left-[122px] top-0 text-red-600 fill-red-600 ml-[2px]"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
               version="1.1"
@@ -80,7 +80,7 @@
                 <path
                   d="M59.0491219,20.1377983H40.9508781c-3.9927254,0-7.239296,3.2465706-7.239296,7.2392979v18.0982456   c0,3.9927254,3.2465706,7.2393951,7.239296,7.2393951h21.7180901v3.619648   c0,10.9772835-8.9309807,19.9080696-19.9081688,19.9080696v3.6197433c12.9728622,0,23.5276222-10.5549545,23.5276222-23.527813   v-3.619648V50.904911V27.3770962C66.2884216,23.3843689,63.0418472,20.1377983,59.0491219,20.1377983z" />
               </g></svg
-            >s</a
+            > s</a
           >
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -101,7 +101,25 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="lg:max-w-[81.25%] mx-auto">
+      <!-- banner section -->
+      <div class="carousel w-full rounded-3xl">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="assets/Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
