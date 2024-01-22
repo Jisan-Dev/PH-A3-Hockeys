@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,6 +17,7 @@
           extend: {
             colors: {
               clifford: '#da373d',
+              'clr-primary': '#FF4240',
             },
           },
         },
@@ -33,9 +34,73 @@
         font-family: 'Manrope', sans-serif;
       }
     </style>
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/a40f868298.js" crossorigin="anonymous"></script>
   </head>
   <body class="font-manrope">
-    <header></header>
+    <header class="lg:max-w-[81.25%] mx-auto">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a class="text-red-600">Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </div>
+          <a class="btn btn-ghost text-4xl font-extrabold relative"
+            >Hockey<svg
+              class="absolute w-5 left-[141px] top-2 text-red-600 fill-red-600 ml-[2px]"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              version="1.1"
+              x="0px"
+              y="0px"
+              viewBox="0 0 100 125"
+              style="enable-background: new 0 0 100 100"
+              xml:space="preserve">
+              <g>
+                <path
+                  d="M59.0491219,20.1377983H40.9508781c-3.9927254,0-7.239296,3.2465706-7.239296,7.2392979v18.0982456   c0,3.9927254,3.2465706,7.2393951,7.239296,7.2393951h21.7180901v3.619648   c0,10.9772835-8.9309807,19.9080696-19.9081688,19.9080696v3.6197433c12.9728622,0,23.5276222-10.5549545,23.5276222-23.527813   v-3.619648V50.904911V27.3770962C66.2884216,23.3843689,63.0418472,20.1377983,59.0491219,20.1377983z" />
+              </g></svg
+            >s</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-base">
+            <li><a class="text-red-600">Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <i class="fa-solid fa-magnifying-glass text-[#89898B] text-xl mr-4"></i>
+          <a
+            class="bg-clr-primary text-white text-xl font-bold px-6 py-[15px] cursor-pointer rounded-lg"
+            >Get Ticket</a
+          >
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
