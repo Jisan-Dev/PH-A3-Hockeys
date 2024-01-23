@@ -38,7 +38,7 @@
     <script src="https://kit.fontawesome.com/a40f868298.js" crossorigin="anonymous"></script>
   </head>
   <body class="font-manrope">
-    <header class="lg:max-w-[81.25%] max-sm:max-w-[96%] mx-auto lg:mb-5 lg:pt-5">
+    <header class="xl:max-w-[81.25%] max-w-[96%] mx-auto lg:mb-5 lg:pt-5">
       <div class="navbar px-0 bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
@@ -101,7 +101,7 @@
         </div>
       </div>
     </header>
-    <main class="lg:max-w-[81.25%] max-sm:max-w-[96%] mx-auto">
+    <main class="xl:max-w-[81.25%] max-w-[96%] mx-auto">
       <!-- banner section -->
       <section class="relative">
         <div class="carousel w-full rounded-3xl relative">
@@ -159,7 +159,7 @@
       </section>
 
       <!-- program section -->
-      <section class="mt-24">
+      <section class="mt-24 mb-24">
         <div>
           <div class="text-center">
             <h2 class="text-[#131318] text-4xl font-extrabold">Program Sections</h2>
@@ -185,6 +185,93 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <!-- new products section (responsive for both tablet and mobile)-->
+      <section class="mb-24">
+        <div class="text-center">
+          <h2 class="text-[#131318] text-4xl font-extrabold">Our New Products</h2>
+          <p class="text-[#13131899] font-medium max-w-[607px] mx-auto mt-6 mb-12">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="flex flex-col md:flex-row md:items-center gap-5 px-6 py-6 border border-[#1313181A] rounded-2xl">
+            <div>
+              <img src="assets/Images/5.png" class="w-full sm:w-auto" alt="">
+            </div>
+            <div>
+              <span class="mr-4 space-x-3.5 text-[#13131880] font-semibold"><i class="fa-solid fa-star text-[#F99808]"></i> 5.0</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-eye"></i> 20</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-heart"></i> 200</span>
+              <h2 class="text-xl font-extrabold mb-3 text-[#131318]">World Cup Flags Football</h2>
+              <p class="text-base font-medium text-[#13131880] mb-6 max-w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row md:items-center gap-5 px-6 py-6 border border-[#1313181A] rounded-2xl">
+            <div>
+              <img src="assets/Images/5.png" class="w-full sm:w-auto" alt="">
+            </div>
+            <div>
+              <span class="mr-4 space-x-3.5 text-[#13131880] font-semibold"><i class="fa-solid fa-star text-[#F99808]"></i> 5.0</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-eye"></i> 20</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-heart"></i> 200</span>
+              <h2 class="text-xl font-extrabold mb-3 text-[#131318]">World Cup Flags Football</h2>
+              <p class="text-base font-medium text-[#13131880] mb-6 max-w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row md:items-center gap-5 px-6 py-6 border border-[#1313181A] rounded-2xl">
+            <div>
+              <img src="assets/Images/5.png" class="w-full sm:w-auto" alt="">
+            </div>
+            <div>
+              <span class="mr-4 space-x-3.5 text-[#13131880] font-semibold"><i class="fa-solid fa-star text-[#F99808]"></i> 5.0</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-eye"></i> 20</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-heart"></i> 200</span>
+              <h2 class="text-xl font-extrabold mb-3 text-[#131318]">World Cup Flags Football</h2>
+              <p class="text-base font-medium text-[#13131880] mb-6 max-w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- note: made the same thing using flexbox for practice and exploration purpose -->
+        <!-- <div class="flex flex-wrap flex-col md:flex-row gap-6 justify-center">
+          <div class="flex flex-1 gap-5 px-6 py-6 border border-[#1313181A] rounded-2xl items-center md:min-w-[380px]">
+            <div>
+              <img src="assets/Images/5.png" alt="">
+            </div>
+            <div>
+              <span class="mr-4 space-x-3.5 text-[#13131880] font-semibold"><i class="fa-solid fa-star text-[#F99808]"></i> 5.0</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-eye"></i> 20</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-heart"></i> 200</span>
+              <h2 class="text-xl font-extrabold mb-3 text-[#131318]">World Cup Flags Football</h2>
+              <p class="text-base font-medium text-[#13131880] mb-6 max-w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+            </div>
+          </div>
+          <div class="flex flex-1 gap-5 px-6 py-6 border border-[#1313181A] rounded-2xl items-center md:min-w-[380px]">
+            <div>
+              <img src="assets/Images/5.png" alt="">
+            </div>
+            <div>
+              <span class="mr-4 space-x-3.5 text-[#13131880] font-semibold"><i class="fa-solid fa-star text-[#F99808]"></i> 5.0</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-eye"></i> 20</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-heart"></i> 200</span>
+              <h2 class="text-xl font-extrabold mb-3 text-[#131318]">World Cup Flags Football</h2>
+              <p class="text-base font-medium text-[#13131880] mb-6 max-w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+            </div>
+          </div>
+          <div class="flex flex-1 gap-5 px-6 py-6 border border-[#1313181A] rounded-2xl items-center md:min-w-[380px]">
+            <div>
+              <img src="assets/Images/5.png" alt="">
+            </div>
+            <div>
+              <span class="mr-4 space-x-3.5 text-[#13131880] font-semibold"><i class="fa-solid fa-star text-[#F99808]"></i> 5.0</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-eye"></i> 20</span>
+              <span class="mr-4 text-[#13131880] font-semibold"><i class="fa-regular fa-heart"></i> 200</span>
+              <h2 class="text-xl font-extrabold mb-3 text-[#131318]">World Cup Flags Football</h2>
+              <p class="text-base font-medium text-[#13131880] mb-6 max-w-[306px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+            </div>
+          </div>
+        </div> -->
       </section>
     </main>
     <footer></footer>
